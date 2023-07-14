@@ -16,7 +16,7 @@ describe("Will test multiply function", () => {
   });
 
   it("Should call the create function", async () => {
-    multiply(5, mockMultiply);
+    multiply(6, mockMultiply);
 
     sandbox.assert.calledOnce(mockMultiply);
   });

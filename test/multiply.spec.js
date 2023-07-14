@@ -4,11 +4,11 @@ import { multiply } from "../multiply.js";
 
 const sandbox = sinon.createSandbox();
 
-let mockMultiply;
+let mockGetRandomNumber;
 
 describe("Will test multiply function", () => {
   beforeEach(() => {
-    mockMultiply = sandbox.stub().returns(10);
+    mockGetRandomNumber = sandbox.stub().returns(10);
   });
 
   afterEach(() => {
@@ -16,13 +16,13 @@ describe("Will test multiply function", () => {
   });
 
   it("Should call the create function", async () => {
-    multiply(5, mockMultiply);
+    multiply(5, mockGetRandomNumber);
 
-    sandbox.assert.calledOnce(mockMultiply);
+    sandbox.assert.calledOnce(mockGetRandomNumber);
   });
 
   it("Should return the correct value", async () => {
-    const result = multiply(6, mockMultiply);
+    const result = multiply(5, mockGetRandomNumber);
 
     expect(result).to.equal(50);
   });

@@ -33,6 +33,10 @@ shell
 
 Cette commande exécutera les tests à l'aide de C8 et générera un rapport de couverture de code détaillé. Le rapport sera enregistré dans le répertoire `coverage` à la racine du projet. Ouvrez le fichier `index.html` dans votre navigateur pour afficher le rapport de couverture de code.
 
+## Workflow
+
+Les tests sont exécutés à chaque fois que vous poussez du code sur le dépôt distant `main`. Si les tests échouent, le dépôt distant refusera votre code. Vous devrez corriger les tests avant de pouvoir pousser votre code.
+
 ## Auteur
 
 Ce projet a été développé par Guillaume Cirillo.

@@ -1,4 +1,4 @@
-# Projet de Test et Couverture
+# Unit Tests and Code Coverage
 
 Ce projet est conçu pour l'exécution de tests JavaScript et pour évaluer la couverture de code de ces tests.
 
@@ -9,15 +9,11 @@ Ce projet est conçu pour l'exécution de tests JavaScript et pour évaluer la c
 3.  Ouvrez une console/terminal et naviguez jusqu'au répertoire racine du projet.
 4.  Exécutez la commande suivante pour installer les dépendances du projet :
 
-shell
-
 `npm install`
 
 ## Exécution des tests
 
 Pour exécuter les tests, utilisez la commande suivante dans votre console/terminal :
-
-shell
 
 `npm test` ou `npm run test`
 
@@ -26,8 +22,6 @@ Cette commande exécutera les tests à l'aide de Mocha, un framework de test pop
 ## Couverture de code
 
 Pour évaluer la couverture de code des tests, utilisez la commande suivante :
-
-shell
 
 `npm run coverage`
 

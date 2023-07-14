@@ -1,0 +1,20 @@
+{
+  "name": "test_unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_unit.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 --check-coverage npm run test",
+    "report": "c8 report --reporter=html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^8.0.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0"
+  }
+}

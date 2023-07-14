@@ -1,0 +1,13 @@
+# Node
+*.log
+node_modules/
+
+# Other
+.DS_STORE
+*#
+*~
+.idea
+
+# Coverage files
+.nyc_output/
+coverage/

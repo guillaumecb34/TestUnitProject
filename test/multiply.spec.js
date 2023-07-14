@@ -16,13 +16,13 @@ describe("Will test multiply function", () => {
   });
 
   it("Should call the create function", async () => {
-    multiply(6, mockMultiply);
+    multiply(5, mockMultiply);
 
     sandbox.assert.calledOnce(mockMultiply);
   });
 
   it("Should return the correct value", async () => {
-    const result = multiply(5, mockMultiply);
+    const result = multiply(6, mockMultiply);
 
     expect(result).to.equal(50);
   });
